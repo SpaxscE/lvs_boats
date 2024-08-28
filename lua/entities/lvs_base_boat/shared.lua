@@ -6,8 +6,10 @@ ENT.Author = "Luna"
 ENT.Information = "Luna's Vehicle Script"
 ENT.Category = "[LVS]"
 
-ENT.Spawnable			= false
+ENT.Spawnable			= true
 ENT.AdminSpawnable		= false
+
+ENT.MDL = "models/props_vehicles/boat_smash.mdl"
 
 function ENT:GetVehicleType()
 	return "boat"
